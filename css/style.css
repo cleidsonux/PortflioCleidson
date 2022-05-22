@@ -26,6 +26,10 @@ a {
   color: #202020;
 }
 
+.btn_cv {
+  cursor: pointer;
+}
+
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
@@ -837,7 +841,7 @@ body {
   }
   #main_skills .card1 {
     height: 100px;
-    width: 100px;
+    width: 50px;
   }
   #service {
     display: none;
@@ -854,6 +858,15 @@ body {
   }
   .contact-container .new-proj {
     margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #main_skills {
+    margin-bottom: 0em;
+  }
+  #portifolio {
+    margin-bottom: 130rem;
   }
 }
 

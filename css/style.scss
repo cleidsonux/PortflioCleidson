@@ -26,6 +26,10 @@ a {
   color: rgb(32, 32, 32);
 }
 
+.btn_cv {
+  cursor: pointer;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
@@ -208,7 +212,6 @@ $color_btn: radial-gradient(144.88% 144.88% at 50.04% -13.29%, #09E16B 0%, #14e5
 }
 .card_projeto:hover {
   transform: scale(1.1);
-
 }
 #main_sobre {
     height: 100%;
@@ -736,16 +739,15 @@ $color_btn: radial-gradient(144.88% 144.88% at 50.04% -13.29%, #09E16B 0%, #14e5
       margin-bottom: 40em;
       .card1 {
         height: 100px;
-        width: 100px;
+        width: 50px;
       }
     }
     #service {
       display: none;
     }
     #portifolio {
-      margin-bottom: 150rem;      
+      margin-bottom: 150rem;
     }
-  
     .contact-container {
       display: grid;
       .png-cleidson {
@@ -755,6 +757,16 @@ $color_btn: radial-gradient(144.88% 144.88% at 50.04% -13.29%, #09E16B 0%, #14e5
         margin-bottom: 200px;
       }
     }
+  
+}
+@media screen and (max-width: 400px) {
+  #main_skills {
+    margin-bottom: 0em;
+  }
+  #portifolio {
+    margin-bottom: 130rem;
+  }
+  
 }
 @media screen and (max-width: 1300px) {
   .modal {
